@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493DD94219A38F92000CC367 /* 17_mouse_events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 493DD94119A38F92000CC367 /* 17_mouse_events.cpp */; };
+		493DD94419A38F97000CC367 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 493DD94319A38F97000CC367 /* button.png */; };
+		493DD94719A38FBF000CC367 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DD94519A38FBF000CC367 /* SDL2_image.framework */; };
+		493DD94819A38FBF000CC367 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DD94619A38FBF000CC367 /* SDL2.framework */; };
+		493DD94919A38FDD000CC367 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 493DD94519A38FBF000CC367 /* SDL2_image.framework */; };
+		493DD94A19A38FDD000CC367 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 493DD94619A38FBF000CC367 /* SDL2.framework */; };
+		493DD94D19A39090000CC367 /* button.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 493DD94319A38F97000CC367 /* button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		493C829D19A37DFA0064A9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 493C827019A37DF90064A9BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493C827719A37DFA0064A9BD;
+			remoteInfo = SDL2Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		493DD94C19A3908B000CC367 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = 17_mouse_events;
+			dstSubfolderSpec = 16;
+			files = (
+				493DD94D19A39090000CC367 /* button.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499838B419A3815900576927 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				493DD94919A38FDD000CC367 /* SDL2_image.framework in CopyFiles */,
+				493DD94A19A38FDD000CC367 /* SDL2.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		493C827819A37DFA0064A9BD /* SDL2Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDL2Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		493C829919A37DFA0064A9BD /* SDL2TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDL2TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		493DD94119A38F92000CC367 /* 17_mouse_events.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 17_mouse_events.cpp; sourceTree = SOURCE_ROOT; };
+		493DD94319A38F97000CC367 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		493DD94519A38FBF000CC367 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
+		493DD94619A38FBF000CC367 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493C827519A37DFA0064A9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493DD94719A38FBF000CC367 /* SDL2_image.framework in Frameworks */,
+				493DD94819A38FBF000CC367 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493C829619A37DFA0064A9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493C826F19A37DF90064A9BD = {
+			isa = PBXGroup;
+			children = (
+				493C828119A37DFA0064A9BD /* SDL2Test */,
+				493C827A19A37DFA0064A9BD /* Frameworks */,
+				493C827919A37DFA0064A9BD /* Products */,
+				493DD93D19A38924000CC367 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		493C827919A37DFA0064A9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				493C827819A37DFA0064A9BD /* SDL2Test.app */,
+				493C829919A37DFA0064A9BD /* SDL2TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		493C827A19A37DFA0064A9BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				493DD94519A38FBF000CC367 /* SDL2_image.framework */,
+				493DD94619A38FBF000CC367 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		493C828119A37DFA0064A9BD /* SDL2Test */ = {
+			isa = PBXGroup;
+			children = (
+				493DD94119A38F92000CC367 /* 17_mouse_events.cpp */,
+			);
+			path = SDL2Test;
+			sourceTree = "<group>";
+		};
+		493DD93D19A38924000CC367 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				493DD94319A38F97000CC367 /* button.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493C827719A37DFA0064A9BD /* SDL2Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493C82A919A37DFA0064A9BD /* Build configuration list for PBXNativeTarget "SDL2Test" */;
+			buildPhases = (
+				493C827419A37DFA0064A9BD /* Sources */,
+				493C827519A37DFA0064A9BD /* Frameworks */,
+				493C827619A37DFA0064A9BD /* Resources */,
+				499838B419A3815900576927 /* CopyFiles */,
+				493DD94C19A3908B000CC367 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDL2Test;
+			productName = SDL2Test;
+			productReference = 493C827819A37DFA0064A9BD /* SDL2Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		493C829819A37DFA0064A9BD /* SDL2TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493C82AC19A37DFA0064A9BD /* Build configuration list for PBXNativeTarget "SDL2TestTests" */;
+			buildPhases = (
+				493C829519A37DFA0064A9BD /* Sources */,
+				493C829619A37DFA0064A9BD /* Frameworks */,
+				493C829719A37DFA0064A9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493C829E19A37DFA0064A9BD /* PBXTargetDependency */,
+			);
+			name = SDL2TestTests;
+			productName = SDL2TestTests;
+			productReference = 493C829919A37DFA0064A9BD /* SDL2TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493C827019A37DF90064A9BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					493C829819A37DFA0064A9BD = {
+						TestTargetID = 493C827719A37DFA0064A9BD;
+					};
+				};
+			};
+			buildConfigurationList = 493C827319A37DFA0064A9BD /* Build configuration list for PBXProject "SDL2Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 493C826F19A37DF90064A9BD;
+			productRefGroup = 493C827919A37DFA0064A9BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493C827719A37DFA0064A9BD /* SDL2Test */,
+				493C829819A37DFA0064A9BD /* SDL2TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		493C827619A37DFA0064A9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493DD94419A38F97000CC367 /* button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493C829719A37DFA0064A9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493C827419A37DFA0064A9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493DD94219A38F92000CC367 /* 17_mouse_events.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493C829519A37DFA0064A9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		493C829E19A37DFA0064A9BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 493C827719A37DFA0064A9BD /* SDL2Test */;
+			targetProxy = 493C829D19A37DFA0064A9BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		493C82A719A37DFA0064A9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		493C82A819A37DFA0064A9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		493C82AA19A37DFA0064A9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "SDL2.framework/headers SDL2_image.framework/headers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		493C82AB19A37DFA0064A9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "SDL2.framework/headers SDL2_image.framework/headers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		493C82AD19A37DFA0064A9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDL2Test.app/Contents/MacOS/SDL2Test";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDL2Test/SDL2Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDL2TestTests/SDL2TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		493C82AE19A37DFA0064A9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDL2Test.app/Contents/MacOS/SDL2Test";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDL2Test/SDL2Test-Prefix.pch";
+				INFOPLIST_FILE = "SDL2TestTests/SDL2TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493C827319A37DFA0064A9BD /* Build configuration list for PBXProject "SDL2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493C82A719A37DFA0064A9BD /* Debug */,
+				493C82A819A37DFA0064A9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493C82A919A37DFA0064A9BD /* Build configuration list for PBXNativeTarget "SDL2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493C82AA19A37DFA0064A9BD /* Debug */,
+				493C82AB19A37DFA0064A9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493C82AC19A37DFA0064A9BD /* Build configuration list for PBXNativeTarget "SDL2TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493C82AD19A37DFA0064A9BD /* Debug */,
+				493C82AE19A37DFA0064A9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 493C827019A37DF90064A9BD /* Project object */;
+}
